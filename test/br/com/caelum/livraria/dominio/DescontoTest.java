@@ -17,14 +17,12 @@ public class DescontoTest {
 	@Test
 	public void calcularDescontoOriundoDeCupom() {
 		Desconto desconto = new Desconto(CEM_REAIS, CUPOM_DE_DESCONTO);
-		
 		assertThat(desconto.getValor(), is(equalTo(Money.of(5, reais))));
 	}
 	
 	@Test
 	public void calcularDescontoOriundoDeFidelidade() {
 		Desconto desconto = new Desconto(CEM_REAIS, FIDELIDADE);
-		
 		assertThat(desconto.getValor(), is(equalTo(Money.of(10, reais))));
 	}
 }

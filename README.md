@@ -22,3 +22,9 @@ Class ValidarISBN.java
 ```
 Class Livros.java  
 ```
+### ⚙ Extraindo classes 
+#### Mover método
+```
+Class Desconto.java
+Class TipoDeDesconto.java
+```
