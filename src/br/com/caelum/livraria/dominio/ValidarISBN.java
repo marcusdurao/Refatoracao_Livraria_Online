@@ -20,7 +20,7 @@ public class ValidarISBN {
                 //Utilizado a técnica de extração de método
                 //int digito = Integer.parseInt(valor.substring(i, i + 1));
 
-                int digito = getParseInt(valor.substring(i, i + 1));
+                int digito = getParseInt(valorSomenteNumeros.substring(i, i + 1));
                 tot += (i % 2 == 0) ? digito * 1 : digito * 3;
             }
 

@@ -6,7 +6,7 @@ public class ISBNTest {
 	
 	// É o ISBN do livro Design Patterns,
 	// da Gang of Four (GoF)!
-	private static final String stringIsbnValido = "978-85-7307-610-3";
+	private static final String stringIsbnValido = "978-951-45-9694-0";
 	public static final ISBN umIsbnValido = new ISBN(stringIsbnValido);
 	public static final ISBN outroIsbnValido = new ISBN("978-85-363-0638-4");
 	

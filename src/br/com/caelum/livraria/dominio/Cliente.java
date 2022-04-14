@@ -1,6 +1,7 @@
 package br.com.caelum.livraria.dominio;
 
-// 11 - mover campo: O campo cep deverá estar aqui no final da refatoração, como agora.
+//Foi removido o parametro cep da classe Selecao de Livro e adicionado
+//como atributo do cliente
 public class Cliente {
 
 	private final String id;

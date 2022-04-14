@@ -19,7 +19,7 @@ public class LivroTest {
 	
 	@Test
 	public void livroDeveRetornarSeuValorFormatado() {
-		assertThat(UM_LIVRO.getValorFormatado(), is(equalTo("R$10,00")));
+		assertThat(UM_LIVRO.getValorFormatado(), is(equalTo("R$ 10,00")));
 	}
 	
 	@Test

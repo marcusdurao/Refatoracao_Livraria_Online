@@ -28,3 +28,18 @@ Class Livros.java
 Class Desconto.java
 Class TipoDeDesconto.java
 ```
+#### Mover campo
+```
+Class SelecaoDeLivro.java
+-Remover o atributo cep que era passado como parametro no médodo
+adionarLivroNoCarrinhoDoCliente e adicionar na classe Cliente.java
+```
+
+#### Extrair código para um nova classe
+```
+Class  SelecaoDeLivro.java
+Classe CarrinhoDeComprasFactory.java
+ -Foi extraído o código que tinha como função obter o carrinho de compra
+ de um cliente para adicionar um livro.
+ Criamos uma classe para cuidar dessa responsabilidade    
+```

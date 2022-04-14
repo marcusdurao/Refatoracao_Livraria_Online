@@ -14,11 +14,13 @@ public class CarrinhoDeComprasFactory implements Iterable<CarrinhoDeCompras> {
 	private final Set<CarrinhoDeCompras> carrinhos;
 	
 	public CarrinhoDeComprasFactory() {
+
 		this.carrinhos = new HashSet<>();
 	}
 	
 	@Override
 	public Iterator<CarrinhoDeCompras> iterator() {
+
 		return carrinhos.iterator();
 	}
  
